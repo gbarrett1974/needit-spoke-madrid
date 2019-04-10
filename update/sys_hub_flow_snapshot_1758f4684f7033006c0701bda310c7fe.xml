@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[{"name":"ad380e81-832d-4218-ba64-9bff90ed8df8.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"ad380e81-832d-4218-ba64-9bff90ed8df8.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"ad380e81-832d-4218-ba64-9bff90ed8df8.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"c7b63791-6421-42dd-bd11-8677bf69a9af.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c7b63791-6421-42dd-bd11-8677bf69a9af.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"c7b63791-6421-42dd-bd11-8677bf69a9af.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"415e0e35-a6b7-4789-8293-338285983949.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"675fe105-5a9e-476b-9260-1a6b58b1e7e2.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"}]</label_cache>
+        <master>true</master>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <parent_flow display_value="Action Test Flow">003160e44f3033006c0701bda310c73b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-10 14:57:37</sys_created_on>
+        <sys_id>1758f4684f7033006c0701bda310c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_87394_needit_spo">f1ff94644f3033006c0701bda310c77a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">f1ff94644f3033006c0701bda310c77a</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_1758f4684f7033006c0701bda310c7fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-10 14:57:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1758f4684f7033006c0701bda310c7fe"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1758f4684f7033006c0701bda310c7fe"/>
+</record_update>
